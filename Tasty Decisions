@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	for(int i=0; i<t; i++)
+	{
+	    int a,b;
+	    scanf("%d%d",&a,&b);
+	    int Chocolate=a*2;
+	    int Candy=b*5;
+	    if (Chocolate>Candy)
+	    {
+	        printf("Chocolate\n");
+	    }
+	    else if(Chocolate<Candy)
+	    {
+	        printf("Candy\n");
+	    }
+	    else
+	    {
+	        printf("Either\n");
+	    }
+	}
+	return 0;
+}
+
