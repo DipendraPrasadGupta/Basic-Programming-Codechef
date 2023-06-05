@@ -1,0 +1,8 @@
+t=int(input())
+for _ in range(t):
+    a,b,c=map(int, input().split())
+    total=a+b+c
+    if a>=10 and b>=10 and c>=10 and total>=100:
+        print("PASS")
+    else:
+        print("FAIL")
