@@ -1,0 +1,6 @@
+t=int(input())
+for _ in range(t):
+    a=int(input())
+    b=a*60//20
+    print(b)
+    
