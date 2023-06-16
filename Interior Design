@@ -1,0 +1,9 @@
+t=int(input())
+for _ in range(t):
+    a,b,c,d=map(int, input().split())
+    first=a+b
+    second=c+d
+    if first<=second:
+        print(first)
+    else:
+        print(second)
