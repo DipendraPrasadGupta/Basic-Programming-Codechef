@@ -1,0 +1,9 @@
+a=int(input())
+for _ in range(a):
+    n=int(input())
+    if n<=3:
+        print("BRONZE")
+    elif n >3 and n<=6:
+        print("SILVER")
+    else:
+        print("GOLD")
