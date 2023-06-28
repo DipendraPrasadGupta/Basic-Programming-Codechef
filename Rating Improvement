@@ -1,0 +1,9 @@
+t=int(input())
+for _ in range(t):
+    a,b=map(int, input().split())
+    c=200+a
+    for i in range(a,c+1):
+        if i==b:
+            print("YES")
+        else:
+            print("NO")
